@@ -1,9 +1,10 @@
 /*****
- * Edit this line to have your name.
+ * Brayden Jenkins
  ******/
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum;
     
     public GitDemo() {
         previousNumber = 1;
@@ -13,6 +14,7 @@ public class GitDemo {
      * This function should add 'num' to 'previousNumber' and return the sum.
     *****/
     public double addNumber(double num) {
+        previousNumber += num;
         System.out.print("Add num to previousNumber");
         return 0;
     }
@@ -39,6 +41,8 @@ public class GitDemo {
      *****/
     public double reverseNumber(int num){
         double factorialNumber = 0;
+        double newNumber = 1;
+        reverseNum = newNumber;
         
         while( num != 0 ) {
             double temp = num % 10;
